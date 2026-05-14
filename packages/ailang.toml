@@ -1,0 +1,9 @@
+schema = "ailang.package.v1"
+name = "ailang"
+repo = "https://github.com/AiLangCore/AiLang.git"
+packageRoot = "."
+license = "MIT"
+
+[versions."0.0.1-alpha.24"]
+ref = "v0.0.1-alpha.24"
+commit = "dabf6bc931d04fbfd80e1a005d28db46e482e087"

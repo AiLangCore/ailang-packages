@@ -1,0 +1,9 @@
+schema = "ailang.package.v1"
+name = "aivm"
+repo = "https://github.com/AiLangCore/AiVM.git"
+packageRoot = "."
+license = "MIT"
+
+[versions."0.0.1-alpha.16"]
+ref = "v0.0.1-alpha.16"
+commit = "23764296cf5ef30393d9be9f12f6fff0262c7076"

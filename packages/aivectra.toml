@@ -1,0 +1,9 @@
+schema = "ailang.package.v1"
+name = "aivectra"
+repo = "https://github.com/AiLangCore/AiVectra.git"
+packageRoot = "."
+license = "MIT"
+
+[versions."0.0.1-alpha.12"]
+ref = "v0.0.1-alpha.12"
+commit = "ebe87ba7edec5a780c991859c78ebba7ccf64c09"
