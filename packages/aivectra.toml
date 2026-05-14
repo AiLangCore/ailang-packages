@@ -3,6 +3,7 @@ name = "aivectra"
 repo = "https://github.com/AiLangCore/AiVectra.git"
 packageRoot = "."
 license = "MIT"
+types = ["library", "tool", "template"]
 
 [versions."0.0.1-alpha.12"]
 ref = "v0.0.1-alpha.12"

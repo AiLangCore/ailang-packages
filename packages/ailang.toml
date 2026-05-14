@@ -3,6 +3,7 @@ name = "ailang"
 repo = "https://github.com/AiLangCore/AiLang.git"
 packageRoot = "."
 license = "MIT"
+types = ["library", "tool", "template"]
 
 [versions."0.0.1-alpha.24"]
 ref = "v0.0.1-alpha.24"
