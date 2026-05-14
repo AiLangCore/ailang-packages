@@ -3,7 +3,7 @@ name = "std-http"
 repo = "https://github.com/AiLangCore/ailang-core-packages.git"
 packageRoot = "packages/std-http"
 license = "MIT"
-types = ["library", "template"]
+types = ["library"]
 
 [versions."0.0.1-alpha.1"]
 ref = "v0.0.1-alpha.1"
