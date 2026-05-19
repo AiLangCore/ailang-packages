@@ -43,3 +43,27 @@ commit = "exact-git-commit"
 - Versions must resolve to immutable git commits.
 - Tags may be used as readable refs, but the exact commit is required.
 - Registry changes should be made by pull request.
+- `defaultVersion`, when present, must point at an existing version table.
+- `types` must match the source package contents.
+
+## Publishing Workflow
+
+Package publishing is currently a curated pull-request workflow:
+
+1. Release or tag the package source repository.
+2. Resolve that ref to the exact git commit.
+3. Add or update `packages/<package-name>.toml`.
+4. Include the readable `ref` and immutable `commit`.
+5. Validate restore/build/run with an example project before requesting review.
+
+Example validation:
+
+```bash
+ailang package restore examples/package-demo
+ailang package list examples/package-demo
+ailang build examples/package-demo
+ailang run examples/package-demo
+```
+
+Do not point registry entries at moving branches without recording the exact
+commit that users should restore.
