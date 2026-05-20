@@ -10,6 +10,14 @@ repository, package root, and approved immutable versions.
 This is the public curated registry used by `ailang package restore`.
 Registry records are intentionally small and point at immutable source commits.
 
+This repository uses `main` as its public default branch. Registry changes are
+curated through pull requests and become visible to package restore after they
+land on `main`.
+
+Public roadmap:
+
+- https://ailang.codes/docs/roadmap.html
+
 Package records may declare item types:
 
 - `library`: importable AiLang source.
