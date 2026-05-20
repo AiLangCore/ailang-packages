@@ -5,6 +5,11 @@ This repository is the curated package registry for AiLang.
 The registry does not host package source. Each package record points to a git
 repository, package root, and approved immutable versions.
 
+## Status
+
+This is the public curated registry used by `ailang package restore`.
+Registry records are intentionally small and point at immutable source commits.
+
 Package records may declare item types:
 
 - `library`: importable AiLang source.
@@ -19,6 +24,13 @@ libraries, tools, and templates from one package.
 ```text
 packages/
   <package-name>.toml
+```
+
+Validate registry metadata with the AiLang package tooling from an installed
+SDK:
+
+```bash
+ailang package list
 ```
 
 ## Package Record
@@ -67,3 +79,6 @@ ailang run examples/package-demo
 
 Do not point registry entries at moving branches without recording the exact
 commit that users should restore.
+
+Package source for official optional libraries lives in
+[AiLangCore/ailang-core-packages](https://github.com/AiLangCore/ailang-core-packages).
