@@ -4,6 +4,11 @@ repo = "https://github.com/AiLangCore/ailang-core-packages.git"
 packageRoot = "packages/std-image"
 license = "MIT"
 types = ["library"]
+defaultVersion = "0.0.1-alpha.2"
+
+[versions."0.0.1-alpha.2"]
+ref = "main"
+commit = "3515bdfb0a9f70bee55d5f014811030bb61dcba4"
 
 [versions."0.0.1-alpha.1"]
 ref = "v0.0.1-alpha.1"
