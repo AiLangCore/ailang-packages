@@ -4,7 +4,11 @@ repo = "https://github.com/AiLangCore/AiLang.git"
 packageRoot = "."
 license = "MIT"
 types = ["library", "tool", "template"]
-defaultVersion = "0.0.1-alpha.28"
+defaultVersion = "0.0.1-alpha.29"
+
+[versions."0.0.1-alpha.29"]
+ref = "develop"
+commit = "1a1a0c79c3836c4aee7c17127163a909a351c253"
 
 [versions."0.0.1-alpha.28"]
 ref = "develop"
