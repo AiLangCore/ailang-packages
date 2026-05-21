@@ -38,6 +38,7 @@ Validate registry metadata with the AiLang package tooling from an installed
 SDK:
 
 ```bash
+./scripts/validate-registry.sh
 ailang package list
 ```
 
@@ -65,6 +66,8 @@ commit = "exact-git-commit"
 - Registry changes should be made by pull request.
 - `defaultVersion`, when present, must point at an existing version table.
 - `types` must match the source package contents.
+- `repo` must point to an AiLangCore GitHub repository.
+- `commit` values must be exact 40-character lowercase git SHAs.
 
 ## Publishing Workflow
 

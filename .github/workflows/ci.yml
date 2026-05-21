@@ -1,0 +1,22 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - main
+      - develop
+  pull_request:
+
+jobs:
+  validate:
+    name: Validate Registry
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Validate registry records
+        run: ./scripts/validate-registry.sh
+
+      - name: List package records
+        run: find packages -name '*.toml' -print | sort

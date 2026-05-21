@@ -22,5 +22,6 @@ This repository is the curated package registry for AiLang.
 ## Verification
 
 ```bash
+./scripts/validate-registry.sh
 find packages -name '*.toml' -print
 ```
