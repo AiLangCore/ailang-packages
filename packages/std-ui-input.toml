@@ -4,7 +4,11 @@ repo = "https://github.com/AiLangCore/ailang-core-packages.git"
 packageRoot = "packages/std-ui-input"
 license = "MIT"
 types = ["library"]
-defaultVersion = "0.0.1-alpha.4"
+defaultVersion = "0.0.1-alpha.5"
+
+[versions."0.0.1-alpha.5"]
+ref = "main"
+commit = "8ec5adb5fe620d1133973b263fe64c592012da5a"
 
 [versions."0.0.1-alpha.4"]
 ref = "main"
