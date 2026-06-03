@@ -8,7 +8,7 @@ defaultVersion = "0.0.1-alpha.22"
 
 [versions."0.0.1-alpha.22"]
 ref = "develop"
-commit = "d9e07cd3ecb2aa9f83db61928e69d261927e0f74"
+commit = "d9e07cd2df22a8e0e518cb70677abc993bde65ad"
 
 [versions."0.0.1-alpha.21"]
 ref = "develop"
