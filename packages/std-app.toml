@@ -1,0 +1,11 @@
+schema = "ailang.package.v1"
+name = "std-app"
+repo = "https://github.com/AiLangCore/ailang-core-packages.git"
+packageRoot = "packages/std-app"
+license = "MIT"
+types = ["library"]
+defaultVersion = "0.0.1-alpha.1"
+
+[versions."0.0.1-alpha.1"]
+ref = "main"
+commit = "620fa313cc21b548e22b4fc3a654d4e99d87b1e8"
