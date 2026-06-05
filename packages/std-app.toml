@@ -4,7 +4,11 @@ repo = "https://github.com/AiLangCore/ailang-core-packages.git"
 packageRoot = "packages/std-app"
 license = "MIT"
 types = ["library"]
-defaultVersion = "0.0.1-alpha.2"
+defaultVersion = "0.0.1-alpha.3"
+
+[versions."0.0.1-alpha.3"]
+ref = "main"
+commit = "94b93fca9854dc31c739ceee5d6c893872ba8b4c"
 
 [versions."0.0.1-alpha.2"]
 ref = "main"
