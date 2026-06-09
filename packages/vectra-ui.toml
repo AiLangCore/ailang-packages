@@ -8,7 +8,7 @@ defaultVersion = "0.0.1-alpha.6"
 
 [versions."0.0.1-alpha.6"]
 ref = "main"
-commit = "9d38cf5c0a9305cb0ded314d072111d42a76506b"
+commit = "9d38cf52f8c40eed9965e5e9a2a44bb623e8eb85"
 
 [versions."0.0.1-alpha.5"]
 ref = "main"
