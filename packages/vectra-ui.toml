@@ -4,7 +4,11 @@ repo = "https://github.com/AiLangCore/ailang-core-packages.git"
 packageRoot = "packages/vectra-ui"
 license = "MIT"
 types = ["library"]
-defaultVersion = "0.0.1-alpha.6"
+defaultVersion = "0.0.1-alpha.7"
+
+[versions."0.0.1-alpha.7"]
+ref = "main"
+commit = "b328f77432cc6b0136315c731c46dd70a6704be4"
 
 [versions."0.0.1-alpha.6"]
 ref = "main"
