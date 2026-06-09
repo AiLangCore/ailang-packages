@@ -1,0 +1,11 @@
+schema = "ailang.package.v1"
+name = "vectra-ui"
+repo = "https://github.com/AiLangCore/ailang-core-packages.git"
+packageRoot = "packages/vectra-ui"
+license = "MIT"
+types = ["library"]
+defaultVersion = "0.0.1-alpha.1"
+
+[versions."0.0.1-alpha.1"]
+ref = "main"
+commit = "d33e92a370bff967868dd48ba51002c54ea3d601"
