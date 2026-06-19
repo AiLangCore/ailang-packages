@@ -1,0 +1,11 @@
+schema = "ailang.package.v1"
+name = "std-storage"
+repo = "https://github.com/AiLangCore/ailang-core-packages.git"
+packageRoot = "packages/std-storage"
+license = "MIT"
+types = ["library"]
+defaultVersion = "0.0.1-alpha.1"
+
+[versions."0.0.1-alpha.1"]
+ref = "main"
+commit = "c3069afec5dd79eb0ccf6a7ed0b643edd6bf2929"
