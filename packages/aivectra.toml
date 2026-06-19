@@ -4,7 +4,11 @@ repo = "https://github.com/AiLangCore/AiVectra.git"
 packageRoot = "."
 license = "MIT"
 types = ["library", "tool", "template"]
-defaultVersion = "0.0.1-beta.10"
+defaultVersion = "0.0.1-beta.11"
+
+[versions."0.0.1-beta.11"]
+ref = "develop"
+commit = "3a880ef31ce1e98e039b87fe9104d6ce190ce986"
 
 [versions."0.0.1-beta.10"]
 ref = "develop"
