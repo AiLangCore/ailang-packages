@@ -1,0 +1,11 @@
+schema = "ailang.package.v1"
+name = "fixture-target-with-requirements"
+repo = "https://github.com/AiLangCore/ailang-core-packages.git"
+packageRoot = "packages/fixture-target-with-requirements"
+license = "MIT"
+types = ["target"]
+defaultVersion = "0.0.1-test.1"
+
+[versions."0.0.1-test.1"]
+ref = "main"
+commit = "42f850ae298f6f299adbcf796b8fe2977b45b553"
