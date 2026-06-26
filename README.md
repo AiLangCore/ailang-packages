@@ -23,9 +23,12 @@ Package records may declare item types:
 - `library`: importable AiLang source.
 - `tool`: executable command or project tool.
 - `template`: project, file, or agent template content.
+- `target`: build/publish/run target metadata, runner recipes, and host tool requirements.
 
 A single package may contain multiple types. For example, AiVectra can expose
-libraries, tools, and templates from one package.
+libraries, tools, and templates from one package. AiOS target packages can
+expose target metadata, package-owned tools, and starter templates from one
+package.
 
 ## Layout
 
@@ -57,6 +60,18 @@ ref = "v0.0.1-alpha.1"
 commit = "exact-git-commit"
 ```
 
+Target package records use the same shape:
+
+```toml
+schema = "ailang.package.v1"
+name = "target-aios-service"
+repo = "https://github.com/AiLangCore/ailang-core-packages.git"
+packageRoot = "packages/target-aios-service"
+license = "MIT"
+types = ["target", "tool", "template"]
+defaultVersion = "0.0.1-alpha.1"
+```
+
 ## Rules
 
 - One package per TOML file.
@@ -68,6 +83,8 @@ commit = "exact-git-commit"
 - `types` must match the source package contents.
 - `repo` must point to an AiLangCore GitHub repository.
 - `commit` values must be exact 40-character lowercase git SHAs.
+- Target packages must declare stable target ids and any external tools required
+  for `build`, `publish`, `run`, `test`, `doctor`, or device workflows.
 
 ## Publishing Workflow
 
