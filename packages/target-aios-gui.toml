@@ -4,7 +4,7 @@ repo = "https://github.com/AiLangCore/ailang-target-aios.git"
 packageRoot = "packages/target-aios-gui"
 license = "MIT"
 types = ["target", "tool", "template"]
-defaultVersion = "0.0.1-alpha.3"
+defaultVersion = "0.0.1-alpha.4"
 
 [versions."0.0.1-alpha.1"]
 ref = "main"
@@ -17,3 +17,7 @@ commit = "eb7d35aaab27d13a271e4f04f2646dd3b3475262"
 [versions."0.0.1-alpha.3"]
 ref = "v0.0.1-alpha.3"
 commit = "d74f8723c9db778ca2c456d27563bf03285ca931"
+
+[versions."0.0.1-alpha.4"]
+ref = "v0.0.1-alpha.4"
+commit = "942065a46986a970a30d4a52e9396d8aae938470"
