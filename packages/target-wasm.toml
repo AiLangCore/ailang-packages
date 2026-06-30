@@ -1,0 +1,11 @@
+schema = "ailang.package.v1"
+name = "target-wasm"
+repo = "https://github.com/AiLangCore/ailang-target-wasm.git"
+packageRoot = "packages/target-wasm"
+license = "MIT"
+types = ["target", "tool", "template"]
+defaultVersion = "0.0.1-alpha.1"
+
+[versions."0.0.1-alpha.1"]
+ref = "main"
+commit = "9966b21a19049944ce9055b3fa22fbd0b11328ba"

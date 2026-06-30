@@ -1,0 +1,11 @@
+schema = "ailang.package.v1"
+name = "target-linux"
+repo = "https://github.com/AiLangCore/ailang-target-linux.git"
+packageRoot = "packages/target-linux"
+license = "MIT"
+types = ["target", "tool", "template"]
+defaultVersion = "0.0.1-alpha.1"
+
+[versions."0.0.1-alpha.1"]
+ref = "main"
+commit = "44ef5e0b95d9663ccf11580ebf502d0ed8c22b80"

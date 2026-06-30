@@ -1,0 +1,11 @@
+schema = "ailang.package.v1"
+name = "target-macos"
+repo = "https://github.com/AiLangCore/ailang-target-macos.git"
+packageRoot = "packages/target-macos"
+license = "MIT"
+types = ["target", "tool", "template"]
+defaultVersion = "0.0.1-alpha.1"
+
+[versions."0.0.1-alpha.1"]
+ref = "main"
+commit = "785a251ebf30b2d5b3d75bf9f43c88f9935687de"
