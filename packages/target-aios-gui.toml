@@ -1,6 +1,6 @@
 schema = "ailang.package.v1"
 name = "target-aios-gui"
-repo = "https://github.com/AiLangCore/ailang-core-packages.git"
+repo = "https://github.com/AiLangCore/ailang-target-aios.git"
 packageRoot = "packages/target-aios-gui"
 license = "MIT"
 types = ["target", "tool", "template"]
@@ -8,4 +8,4 @@ defaultVersion = "0.0.1-alpha.1"
 
 [versions."0.0.1-alpha.1"]
 ref = "main"
-commit = "4b72566072ad626ff80787047d2736f9c7af062e"
+commit = "01d4ec26cb753a5162fe95c6d131dd9061610ddb"

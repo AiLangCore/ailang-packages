@@ -1,6 +1,6 @@
 schema = "ailang.package.v1"
 name = "target-aios-service"
-repo = "https://github.com/AiLangCore/ailang-core-packages.git"
+repo = "https://github.com/AiLangCore/ailang-target-aios.git"
 packageRoot = "packages/target-aios-service"
 license = "MIT"
 types = ["target", "tool", "template"]
@@ -8,4 +8,4 @@ defaultVersion = "0.0.1-alpha.1"
 
 [versions."0.0.1-alpha.1"]
 ref = "main"
-commit = "e36cba3330e66a09bdf736b4e84e713fe4627248"
+commit = "01d4ec26cb753a5162fe95c6d131dd9061610ddb"
