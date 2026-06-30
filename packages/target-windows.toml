@@ -4,8 +4,12 @@ repo = "https://github.com/AiLangCore/ailang-target-windows.git"
 packageRoot = "packages/target-windows"
 license = "MIT"
 types = ["target", "tool", "template"]
-defaultVersion = "0.0.1-alpha.1"
+defaultVersion = "0.0.1-alpha.2"
 
 [versions."0.0.1-alpha.1"]
 ref = "main"
 commit = "08db3ac2d49fdeb13e693844de79ba8ac8d6de9e"
+
+[versions."0.0.1-alpha.2"]
+ref = "main"
+commit = "09e4e0f982caac5b57e5f1ea90fa45e9504f8e1e"
