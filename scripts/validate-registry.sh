@@ -64,7 +64,7 @@ check_record() {
   else
     while IFS= read -r type; do
       [[ -z "${type}" ]] && continue
-      if [[ ! "${type}" =~ ^(library|tool|template)$ ]]; then
+      if [[ ! "${type}" =~ ^(library|tool|template|target)$ ]]; then
         fail "invalid package type '${type}' in ${file}"
       fi
     done < <(printf '%s\n' "${types}" | tr ',' '\n' | tr -d ' "')

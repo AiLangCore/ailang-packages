@@ -23,6 +23,7 @@ Package records may declare item types:
 - `library`: importable AiLang source.
 - `tool`: executable command or project tool.
 - `template`: project, file, or agent template content.
+- `target`: platform target metadata, tools, and host integration.
 
 A single package may contain multiple types. For example, AiVectra can expose
 libraries, tools, and templates from one package.
@@ -93,3 +94,19 @@ commit that users should restore.
 
 Package source for official optional libraries lives in
 [AiLangCore/ailang-core-packages](https://github.com/AiLangCore/ailang-core-packages).
+
+Official platform target packages live in dedicated target repositories once
+created:
+
+```text
+AiLangCore/ailang-target-windows
+AiLangCore/ailang-target-macos
+AiLangCore/ailang-target-linux
+AiLangCore/ailang-target-wasm
+AiLangCore/ailang-target-aios
+```
+
+Registry records for target packages must point at the target repository, not
+the core language, VM, or UI repositories. Existing records that point at
+`ailang-core-packages` are migration staging until the matching target
+repository exists and publishes an immutable package commit.
