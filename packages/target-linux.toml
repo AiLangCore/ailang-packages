@@ -4,7 +4,11 @@ repo = "https://github.com/AiLangCore/ailang-target-linux.git"
 packageRoot = "packages/target-linux"
 license = "MIT"
 types = ["target", "tool", "template"]
-defaultVersion = "0.0.1-alpha.3"
+defaultVersion = "0.0.1-alpha.4"
+
+[versions."0.0.1-alpha.4"]
+ref = "main"
+commit = "9955554db00c5f0cff4e11a0c6ee19228861e606"
 
 [versions."0.0.1-alpha.3"]
 ref = "main"
