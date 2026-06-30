@@ -4,7 +4,11 @@ repo = "https://github.com/AiLangCore/ailang-target-wasm.git"
 packageRoot = "packages/target-wasm"
 license = "MIT"
 types = ["target", "tool", "template"]
-defaultVersion = "0.0.1-alpha.2"
+defaultVersion = "0.0.1-alpha.3"
+
+[versions."0.0.1-alpha.3"]
+ref = "main"
+commit = "e466b5b0c4e0eaf5579e9f3df27f4fe8b2cf2e00"
 
 [versions."0.0.1-alpha.1"]
 ref = "main"

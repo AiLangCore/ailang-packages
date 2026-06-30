@@ -4,7 +4,11 @@ repo = "https://github.com/AiLangCore/ailang-core-packages.git"
 packageRoot = "packages/std-http"
 license = "MIT"
 types = ["library"]
-defaultVersion = "0.0.1-alpha.8"
+defaultVersion = "0.0.1-alpha.9"
+
+[versions."0.0.1-alpha.9"]
+ref = "main"
+commit = "474df577396ff6a9f6be7700f142bcc2d16c34cd"
 
 [versions."0.0.1-alpha.8"]
 ref = "main"
